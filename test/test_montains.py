@@ -52,6 +52,10 @@ def test_counter_backslashes():
     assert result == expected_result
 
 
+"""
+Search indexes
+"""
+
 def test_search_indexes_success():
     given_data = '///\\\\\\'
     expected_result = { 'up_index': 2, 'down_index': 3 }
