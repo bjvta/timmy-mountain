@@ -1,6 +1,6 @@
 """Tunnels module"""
 
-from .montains import counter_of_slashes, search_up_down_indexes, delete_both_slashes
+from .mountains import counter_of_slashes, search_up_down_indexes, delete_both_slashes
 
 
 def is_valid_tunnel(data):

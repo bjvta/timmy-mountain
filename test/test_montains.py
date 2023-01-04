@@ -1,6 +1,6 @@
 """Test Montains module"""
 
-from lib.montains import counter_of_slashes, delete_both_slashes, is_valid_montain, search_up_down_indexes
+from lib.mountains import counter_of_slashes, delete_both_slashes, is_valid_montain, search_up_down_indexes
 
 
 def test_first_valid_example():

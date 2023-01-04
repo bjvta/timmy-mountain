@@ -1,7 +1,7 @@
 """Roads module"""
 
 
-from lib.montains import delete_both_slashes, is_valid_montain, search_up_down_indexes
+from lib.mountains import delete_both_slashes, is_valid_montain, search_up_down_indexes
 
 
 def changes_to_become_valid_mountain(data):
