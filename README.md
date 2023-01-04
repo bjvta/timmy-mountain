@@ -30,3 +30,49 @@ pip3 install -r requirements.txt
 pytest
 ```
 
+## We have three problems that we solve here:
+### 1. Check valid mountain
+
+These examples are valid:
+
+```
+/\      //\\//\\      ////\\\\           ////\\\/////\\\\\\
+
+                                                   /\
+                          /\                /\    /  \
+        /\  /\           /  \              /  \  /    \
+/\     /  \/  \         /    \            /    \/      \
+                       /      \          /              \
+
+
+```
+
+
+### 2. Check valid mountain with tunnels
+
+
+These examples are valid:
+
+```
+ />//\\<\           //>/\<\/>/>/\<\<\\
+
+                                 /\   
+                                >  <
+                        /\     /    \
+    /\                 >  <   >      <
+   /  \               /     \/        \
+  >    <             /                 \
+ /      \           /                   \
+
+```
+
+### 3. Return a number of changes to have a valid mountain
+
+These are some examples:
+
+```
+/\\                             \///\\
+
+Must return: 1                  Must return: 2
+
+```
